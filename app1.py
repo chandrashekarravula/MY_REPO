@@ -56,10 +56,4 @@ if uploaded_file is not None:
     # Show prediction
     st.subheader("Prediction Result")
     st.success(f"**Class:** {predicted_class}")
-
-if st.button("Exit"):
-    st.write("Exiting the application...")
-    os._exit(1)
-    SystemExit()
-
     
