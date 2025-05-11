@@ -67,7 +67,7 @@ if uploaded_file is not None:
             st.header("Precautions/Cure:")
             st.write("Early surgical removal is key. Use sunscreen, avoid excessive sun exposure, and monitor moles (ABCDE rule: Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolving).")
 
-        elif predicted_class == "Melanocytic Nevus (Mole)":
+        elif predicted_class == "Melanocytic Nevus":
             st.title("MELANOCYTIC NEVUS (MOLE):")
             st.header("Cause:")
             st.write("Benign proliferation of melanocytes, often due to genetics or sun exposure.")
@@ -76,7 +76,7 @@ if uploaded_file is not None:
             st.header("Precautions/Cure:")
             st.write("Monitor for changes (size, color, shape). Suspicious moles should be biopsied/excised.")
         
-        elif predicted_class == "Basal Cell Carcinoma (BCC)":
+        elif predicted_class == "Basal Cell Carcinoma":
             st.title("BASAL CELL CARCINOMA (BCC):")
             st.header("Cause:")
             st.write("UV-induced mutations in basal cells (most common skin cancer).")
@@ -85,7 +85,7 @@ if uploaded_file is not None:
             st.header("Precautions/Cure:")
             st.write("Surgical removal, cryotherapy, or topical treatments. Prevent with sun protection (hats, sunscreen).")
         
-        elif predicted_class == "Actinic Keratosis (AK)":
+        elif predicted_class == "Actinic Keratosis":
             st.title("ACTINIC KERATOSIS (AK):")
             st.header("Cause:")
             st.write("Chronic sun exposure damaging keratinocytes (precancerous).")
@@ -94,7 +94,7 @@ if uploaded_file is not None:
             st.header("Precautions/Cure:")
             st.write("Treated with cryotherapy, topical creams (5-FU, imiquimod), or photodynamic therapy. Sun avoidance is critical.")
         
-        elif predicted_class == "Benign Keratosis (Seborrheic Keratosis)":
+        elif predicted_class == "Benign Keratosis":
             st.title("BENIGN KERATOSIS (SEBORRHEIC KERATOSIS):")
             st.header("Cause:")
             st.write("Unknown, but linked to aging and genetics (not UV-related).")
